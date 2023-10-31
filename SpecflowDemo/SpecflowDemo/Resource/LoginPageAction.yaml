@@ -1,0 +1,44 @@
+﻿elements:
+  - &user-field
+    id: user-field
+    description: User field
+    locators:
+      - device: WEB
+        type: NAME
+        value: uid
+  - &pass-field
+    id: pass-field
+    description: Pass field
+    locators:
+      - device: WEB
+        type: NAME
+        value: password
+  - &login-button
+    id: login-button
+    description: Login button
+    locators:
+      - device: WEB
+        type: NAME
+        value: btnLogin
+  - id: error-message
+    description: Error message
+    locators:
+      - device: WEB
+        type: ID
+        value: message23
+actions:
+  - id: login-action
+    description: login for user
+    actionElements:
+      - element: *user-field
+        condition: DISPLAYED
+        inputType: text
+        infoType: text        
+        timeout: 6000
+      - element: *pass-field
+        condition: DISPLAYED
+        inputType: text
+        timeout: 6000
+      - element: *login-button
+        condition: ENABLED
+        inputType: click

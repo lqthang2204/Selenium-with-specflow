@@ -1,0 +1,51 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1b59b75a_002Dc7a5_002D44a0_002D96cb_002Dfaba9301cbba/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="login web page #10" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2d5e3b1d_002D7590_002D4fe0_002D975e_002Da676d051755e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="login web page #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=48cb4c18_002D8aa7_002D464b_002D83cc_002D22679ffc1f2d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="login web page #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=56fc99bd_002D5c21_002D4c0f_002D98e0_002D08723b0fb760/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="login web page #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7ae2bbbe_002Db129_002D4c34_002Dad5d_002Deea84bc706c5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="login web page #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9343e4dd_002Db836_002D4729_002Da5ba_002D0fca6fd0ce3b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="login web page #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e3b7d52e_002Dc259_002D40c0_002Db995_002Decb8b9576626/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="login web page #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fce72ebb_002D5a12_002D46e0_002D97e8_002Dcb4bdf1ffdfa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="login web page #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fd0b5691_002D37c3_002D4785_002D81da_002D8d912f261709/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="login web page" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fe40d392_002Da545_002D47d9_002Da6d2_002D0f8708b1e760/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="login web page #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2766FA73-8E98-4313-A0E3-90AF4D44ED32::net6.0::SpecflowDemo.Features.LoginFeatureFeature.LoginWebPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

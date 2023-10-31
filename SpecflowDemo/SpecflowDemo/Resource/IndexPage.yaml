@@ -1,0 +1,19 @@
+﻿elements:
+  - id: edit-customer
+    description: Edit Customer
+    locators:
+      - device: WEB
+        type: XPATH
+        value: //*[text()="Edit Customer"]
+  - id: new-customer
+    description: Edit Customer
+    locators:
+      - device: WEB
+        type: XPATH
+        value: //*[text()="New Customer"]
+  - id: title-header
+    description: Title header
+    locators:
+      - device: WEB
+        type: XPATH
+        value: //h2[@class="barone"]          

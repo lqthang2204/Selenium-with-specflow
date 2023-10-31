@@ -1,0 +1,25 @@
+elements:
+  - id: user-field
+    description: User field
+    locators:
+      - device: WEB
+        type: NAME
+        value: uid
+  - id: pass-field
+    description: Pass field
+    locators:
+      - device: WEB
+        type: NAME
+        value: password
+  - id: login-button
+    description: Login button
+    locators:
+      - device: WEB
+        type: NAME
+        value: btnLogin
+  - id: error-message
+    description: Error message
+    locators:
+      - device: WEB
+        type: ID
+        value: message23

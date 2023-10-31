@@ -1,0 +1,13 @@
+﻿elements:
+  - id: search-field
+    description: Search Field
+    locators:
+      - device: WEB
+        type: NAME
+        value: q
+  - id: search-button
+    description: Search button
+    locators:
+      - device: WEB
+        type: NAME
+        value: btnK
