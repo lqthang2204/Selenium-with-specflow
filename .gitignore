@@ -4,3 +4,4 @@ obj/
 TestResults/
 Report/
 .idea
+.csproj

@@ -1,0 +1,107 @@
+﻿elements:
+  - &customer-name
+    id: customer-name
+    description: Customer name
+    locators:
+      - device: WEB
+        type: NAME
+        value: name
+  - &male-option   
+    id: male-option
+    description: Male option
+    locators:
+      - device: WEB
+        type: NAME
+        value: rad1
+  - &dob-field   
+    id: dob-field
+    description: DOB field
+    locators:
+      - device: WEB
+        type: ID
+        value: dob
+  - &address-field
+    id: address-field
+    description: Address field
+    locators:
+      - device: WEB
+        type: NAME
+        value: addr
+  - &city-field
+    id: city-field
+    description: City field
+    locators:
+      - device: WEB
+        type: NAME
+        value: city
+  - &state-field
+    id: state-field
+    description: State field
+    locators:
+      - device: WEB
+        type: NAME
+        value: state
+  - &pin-field
+    id: pin-field
+    description: State field
+    locators:
+      - device: WEB
+        type: NAME
+        value: pinno  
+  - &phone-field
+    id: phone-field
+    description: telephoneno field
+    locators:
+      - device: WEB
+        type: NAME
+        value: telephoneno  
+  - &email-field
+    id: email-field
+    description: Email field
+    locators:
+      - device: WEB
+        type: NAME
+        value: emailid   
+  - &password-field
+    id: password-field
+    description: password field
+    locators:
+      - device: WEB
+        type: NAME
+        value: password     
+actions:
+  - id: add-customer-action
+    description: login for user
+    action_elements:
+      - element: *customer-name
+        condition: DISPLAYED
+        input_type: text
+        timeout: 6000
+      - element: *male-option
+        condition: DISPLAYED
+        input_type: click
+        timeout: 6000
+      - element: *dob-field
+        condition: ENABLED
+        input_type: text   
+      - element: *address-field
+        condition: DISPLAYED
+        input_type: text     
+      - element: *city-field
+        condition: DISPLAYED
+        input_type: text     
+      - element: *state-field
+        condition: DISPLAYED
+        input_type: text   
+      - element: *pin-field
+        condition: DISPLAYED
+        input_type: text   
+      - element: *phone-field
+        condition: DISPLAYED
+        input_type: text   
+      - element: *email-field
+        condition: DISPLAYED
+        input_type: text        
+      - element: *password-field
+        condition: DISPLAYED
+        input_type: text               

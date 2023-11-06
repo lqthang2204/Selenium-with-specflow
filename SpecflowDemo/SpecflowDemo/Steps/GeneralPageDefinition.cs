@@ -5,6 +5,7 @@ using OpenQA.Selenium.Support.UI;
 using Selenium.DefaultWaitHelpers;
 using SpecflowDemo.ManagementLocator;
 using SpecflowDemo.support;
+using TechTalk.SpecFlow.Assist;
 using Xunit;
 
 namespace SpecflowDemo.Steps;
@@ -21,6 +22,7 @@ public class GeneralPageDefinition
     public GeneralPageDefinition(IWebDriver driver)
     {
         this.driver = driver;
+        wait =new WebDriverWait(driver, TimeSpan.FromSeconds(10));;
     }
     
     [Given(@"I change the page spec to (.*)")]
@@ -53,9 +55,10 @@ public class GeneralPageDefinition
     }
 
     [Given(@"I perform (.*) action with override values")]
-    public void GivenIPerformLoginActionActionWithOverrideValues(String action, Table table)
+    public void GivenIPerformLoginActionActionWithOverrideValues(String action_id, Table table)
     {
-        Console.WriteLine("test");
+            Actions action = locator.getAction(action_id, page_yaml);
+            locator.execute_action_with_override(action, driver, wait,  table);
     }
 
     [Given(@"I wait for element (.*) to be (.*)")]
@@ -84,5 +87,13 @@ public class GeneralPageDefinition
         By by = locator.getBy(loc);
         var result = driver.FindElement(by).Text;
        Assert.Equal(text, result);
+    }
+
+    [Given(@"I perform (.*) action")]
+    public void GivenIPerformLoginActionAction(String action_id)
+    {
+        Actions action = locator.getAction(action_id, page_yaml);
+        locator.execute_action(action, driver, wait);
+        
     }
 }

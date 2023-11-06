@@ -33,12 +33,12 @@ actions:
       - element: *user-field
         condition: DISPLAYED
         input_type: text
-        info_type: mngr535424        
+        info_type: test        
         timeout: 6000
       - element: *pass-field
         condition: DISPLAYED
         input_type: text
-        info_type: ynadAhY
+        info_type: test
         timeout: 6000
       - element: *login-button
         condition: ENABLED
